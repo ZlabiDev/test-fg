@@ -8,20 +8,21 @@
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "sourceMap": true,
-    "declaration": false,
-    "downlevelIteration": true,
-    "experimentalDecorators": true,
-    "moduleResolution": "node",
-    "importHelpers": true,
-    "target": "es2020",
-    "module": "es2020",
-    "lib": [
-      "es2020",
-      "dom"
-    ]
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "sourceMap": true,
+      "declaration": false,
+      "downlevelIteration": true,
+      "experimentalDecorators": true,
+      "moduleResolution": "node",
+      "importHelpers": true,
+      "target": "es2020",
+      "module": "es2020",
+      "strictPropertyInitialization": false,
+      "lib": [
+          "es2020",
+          "dom"
+      ]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
